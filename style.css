@@ -1,0 +1,112 @@
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .centerClass {
+        text-align: center;
+    }
+    
+    #centerID {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%/*must have width to work*/
+    }
+    
+    #mySketch {
+        margin-bottom: 25px;
+    }
+    
+    h1 {
+        font-family: 'Montserrat';
+        font-size: 3.5em;
+        margin-bottom: 15px;
+        color: #C3BAD4;
+    }
+    
+    h2 {
+        text-align: left;
+        font-family: 'Montserrat';
+        font-size: 1.5em;
+        color: #C3BAD4;
+        margin-bottom: 10px;
+        clear: left;
+    }
+    
+    nav {
+        font-family: 'Courier New';
+        font-size: .8em;
+        margin-bottom: 10px;
+    }
+    
+    body {
+        background-color: #282626;
+        color: #FFFFFF;
+    }
+    
+    article {
+        font-family: 'Courier New';
+        float: left;
+        margin-bottom: 20px;
+        font-size: .8em;
+        text-align: justify;
+    }
+    
+    .intro {
+        font-family: 'Courier New';
+        float: left;
+        margin-bottom: 45px;
+        margin-top: 0px;
+    }
+    
+    hr {
+        clear: left;
+        width: 100%;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    #col1 {
+        float: left;
+        padding-left: 40px;
+    }
+    
+    #col2 {
+        float: left;
+        padding-left: 80px;
+    }
+    
+    li {
+        font-family: 'Courier New';
+    }
+    
+    footer {
+        clear: left;
+        text-align: left;
+        float: left;
+        font-family: 'Courier New';
+        font-size: .8em;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    /* === LINKS === */
+    
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: #B75A63;
+    }
