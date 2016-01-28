@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: 'Arvo';
+    font-weight: 700;
+    font-size: 3.2em;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+hr {
+    width: 100%;
+    color: #666666;
+    margin-bottom: 35px;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Helvetica';
+    background-color: #F2EDE6;
+    color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+
+#location li {
+    width: 180px;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+#location {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#time li {
+    padding: 5px;
+    font-size: 11.5px;
+    border-radius: 2px;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+#time {
+    clear: left;
+}
+
+#home1,
+#go1,
+#cruess1,
+#campus1 {
+    list-style: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#home1:hover,
+#go1:hover,
+#cruess1:hover,
+#campus1:hover {
+    opacity: 0.7;
+}
+
+a {
+    font-size: 9px;
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666666;
+}
+
+#home1,
+.home {
+    background-color: #D1B3C4;
+}
+
+#go1,
+.go {
+    background-color: #BBC7A4;
+}
+
+#cruess1,
+.cruess {
+    background-color: #ABB4CC;
+}
+
+#campus1,
+.campus {
+    background-color: #A9C6CF;
+}
+
+.link {
+    position: relative;
+}
+
+.tip {
+    position: absolute;
+    margin-top: -55px;
+    font-size: 12px;
+}
+
+.homeDetails,
+.goDetails,
+.cruessDetails,
+.campusDetails {
+    float: left;
+    font-size: 10px;
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    width: 180px;
+    margin-right: 40px;
+}
+
+.hide {
+    visibility: hidden;
+}

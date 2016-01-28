@@ -96,7 +96,16 @@
         margin-right: auto;
         width: 100%;
     }
+    
+    #topic {
+        font-size: 150px;
+        font-family: 'Montserrat';
+    }
     /* === LINKS === */
+    
+    a {
+        margin-top: 10px;
+    }
     
     a:link {
         color: white;

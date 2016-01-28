@@ -87,3 +87,17 @@ img {
 .show {
     visibility: visible;
 }
+
+footer {
+    clear: left;
+}
+
+a {
+    font-size: 9px;
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666666;
+}
