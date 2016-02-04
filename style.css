@@ -18,6 +18,11 @@
         margin-bottom: 25px;
     }
     
+    img,
+    p {
+        padding: 15px, 0px, 15px, 0px;
+    }
+    
     h1 {
         font-family: 'Montserrat';
         font-size: 3.5em;

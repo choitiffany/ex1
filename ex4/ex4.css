@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,600);
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.column {
+    float: left;
+    height: 330px;
+    width: 33.33%;
+}
+
+body {
+    font-family: "Raleway";
+    color: white;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 65px;
+    color: white;
+}
+
+img {
+    margin: 50px 20px 10px 100px;
+}
+
+#plannerText,
+#walletText,
+#usbText {
+    background-color: #86848F;
+    padding: 10px;
+}
+
+.sketchbook,
+.cheerios,
+header {
+    background-color: #292F36;
+}
+
+#sketchbookText,
+#cheeriosText {
+    background-color: #707479;
+    padding: 10px;
+}
+
+h1 {
+    padding: 25px;
+}
+
+.wallet,
+.usb,
+.planner {
+    background-color: #4A4757;
+}
+
+footer {
+    clear: left;
+}
+
+a {
+    font-size: 9px;
+}
+
+a:link {
+    color: #292F36;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #292F36;
+}
+
+a:hover {
+    color: #646177;
+}
