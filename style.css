@@ -20,7 +20,7 @@
     
     img,
     p {
-        padding: 15px, 0px, 15px, 0px;
+        padding: 15px 0px 15px 0px;
     }
     
     h1 {
@@ -105,6 +105,11 @@
     #topic {
         font-size: 150px;
         font-family: 'Montserrat';
+    }
+    
+    li {
+        padding: 5px;
+        margin-left: 15px;
     }
     /* === LINKS === */
     
